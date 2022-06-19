@@ -1,16 +1,16 @@
-Lektion 3
+ #Lektion 3
 
 #Genom att skriva "len"(length) framför variabeln kan vi få fram längden på variabeln.
-# namn = "Moe"
-# print(len(namn))
+namn = "Moe"
+print(len(namn))
 
 #Genom att skriva ".find("ord")" får man fram positionen som ett visst tecken har i variabeln.
-# namn = "Moe"
-# print(namn.find("M"))
+namn = "Moe"
+print(namn.find("M"))
 
 #Genom att skriva ".capitalized()" kommer första bokstaven i namnet,ordet eller meningen i fråga att skrivas om till versal.
-# namn = "Moe"
-# print(namn.capitalize())
+namn = "Moe"
+print(namn.capitalize())
 
 
 # Genom att skriva ".upper()"(uppercase) kommer alla bokstäverna i namnet eller meningen att skrivas om till versal.
@@ -44,7 +44,7 @@ namn = "Moe"
 print(namn*7)
 
 
-#Lektion 4
+ #Lektion 4
 
 # Type casting = omskriva  datatypen av ett värde till en annan datatyp.
 
@@ -55,7 +55,7 @@ z = 5
 e = 7.0
 
 # str = string, serie av karaktärer som omringas med citattecken.
-# Det går inte att beräkna matematik med strings vilket är en anledning till varför man kanske vill just konvertera dem.
+# Det går inte att beräkna matematik med strings vilket är en anledning till varför man kanske vill konvertera dem.
 i = "-2"
 
 print()
@@ -65,11 +65,14 @@ print(e)
 print(i)
 
 # Genom att definera "e" och "i" som heltal med samma värde som "e" och "i" kan man skriva dessa som heltal.
+ #int(e) --> string till integer(heltal)
+ #int(i) --> float till integer(heltal)
 e = int(e)
 i = int(i)
 
+#Det går nu att utföra mattematiska uträkningar  med alla variabler.
 print()
 print("Efter konvertering till heltal.")
-print(z)
-print(e)
+print(z-1)
+print(e+33)
 print(i*5)
